@@ -1,0 +1,353 @@
+/*
+Copyright 2017 Dora Tomljenovic <dxt5777>.
+#Project 1
+
+Created on : Oct 2, 2017, 3:36:20 PM
+Author     : Dora Tomljenovic
+
+*/
+
+@media only screen and (max-width: 500px){
+    
+     li{
+        
+        font-size: 150%;
+        width: 100%;
+        text-align: center;
+        height: 90%;    
+    }
+    
+    
+    
+    ul{
+        
+        overflow-x: hidden;
+        overflow-y: scroll;
+        white-space: normal;
+        height: 68px;           
+    }
+    
+    li a {
+    
+    padding: 19px 73px;
+    width: 70%;
+    font-size: 20pt;
+    
+    }
+       
+ #home-about {
+    
+
+    background-size: cover;    
+}
+
+#gap{
+    height:auto;
+}
+
+
+.pretty-text{
+    
+    font-size: 120%;
+}
+
+.quotes{
+    
+     font-size: 120%;
+    
+}
+
+#description-about{
+    
+    width: 300px;
+    height: 200px;
+}
+
+
+h1.historytitle{
+        
+        padding-left: 25%;
+        padding-bottom: 10%;
+        margin-top: -13%;
+        
+    }
+
+
+h2.historyvenice{
+        
+        font-size: 85%;
+        padding-left: 20%;
+        padding-right: 20%; 
+       
+    }
+    
+    #past-picture img{
+        
+         padding-left: 0%;
+         width: 150%;
+         padding-top: 10%;
+         
+    }
+    
+    h1.food-venice{
+    
+    padding-bottom: 10%;
+    margin-top: -10%;  
+    
+}
+
+ 
+h2.venicefood{
+    font-size: 85%;
+    padding-left: 15%;
+    padding-right: 15%; 
+   
+}
+
+#picture1 img{
+    
+    
+    width: 80%;
+    height: 10%;
+     padding-left: 10%;
+   
+}
+
+h1.art-title{
+    
+    padding-bottom: 10%;
+    margin-top: -10%;
+    padding-left: 25%;
+      
+}
+
+h2.art-venice{
+    
+    font-size: 85%;
+    padding-left: 15%;
+    padding-right: 15%;
+          
+}
+
+
+
+h1.pictures-title{
+    
+    padding-left: 20%;
+    
+      
+}
+
+#glass img{
+    
+    width: 30%;
+    padding-left: 30%;
+    
+}
+
+h1.music-title{
+    
+    padding-bottom: 10%;
+    margin-top: -10%;
+    padding-left: 38%;
+}
+
+h2.music{
+    
+    font-size: 85%;
+    padding-left: 15%;
+    padding-right: 15%;
+ 
+}
+
+/*   */
+.hero-text-box h1{
+    
+    padding-top: 70%;
+}
+
+#picture-music img{
+    
+    width: 45%;
+    padding-left: 25%;
+}
+
+h1.pictures-title{
+    
+    padding-bottom: 10%;
+    margin-top: -10%;
+    padding-left: 28%;
+}
+
+#gondolas img{
+    
+    height: 50%;
+    
+}
+
+#venice-street img{
+    width: 37%;
+    height: 20%;
+    padding-left: 8%;
+       
+}
+
+
+
+#picture-festival img{
+    
+    width: 40%;
+    height: 20%;
+    padding-left: 30%;
+     
+}
+
+h1.festival-title{
+    
+    margin-top: -10%;
+    padding-left: 40%;
+}
+
+h2.festival-history{
+    
+    
+    font-size: 85%;
+}
+
+h1.map-title{
+    
+    padding-bottom: 10%;
+    margin-top: -10%;
+    padding-left: 42%;
+      
+}
+#venice-map img{
+    
+    width: 80%;
+    height: 60%;
+    padding-left: 10%;
+    
+    
+}
+h1.people-venice{
+    
+    padding-bottom: 10%;
+    margin-top: -10%;
+    padding-left: 42%;
+    
+}
+
+
+h2.people-description{
+    
+    font-size: 85%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#venice-bar img{
+    
+    width: 45%;
+    padding-left: 25%;
+    
+}
+h1.architecture-title{
+    
+   padding-bottom: 10%;
+   margin-top: -12%;
+   padding-left: 28%;
+      
+}
+
+h2.architecture-information{
+    
+    font-size: 85%;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+}
+
+#venice-basilica img{
+    
+     width: 60%;
+    padding-left: 18%;
+       
+   }
+   
+   #pictures img {
+   
+    width: 70%;
+    height: 40%;
+    margin-left: 4%;
+       
+    
+}
+
+#pictures-2 img{
+    
+   width: 70%;
+   height: 40%;
+   margin-left: 4%;
+     
+    
+}
+
+h1.references{
+    
+    margin-top: -10%;
+    padding-left: 35%;
+    
+  } 
+  
+  h1.rubrics-title{
+      
+    margin-top: -10%;
+    padding-left: 35%;
+      
+  }
+  
+ .rubrics-content{
+    
+    
+    font-size: 110%; 
+}
+
+p{
+    
+    
+    font-size: 10pt;
+    
+}
+}
+
+
+
+@media only screen and (max-width: 1280px){
+       
+       li{
+        
+        font-size: 100%;
+        width: 100%;
+        text-align: center;
+        height: 90%;    
+    }
+    
+    
+    ul{
+        
+        overflow-x: hidden;
+        overflow-y: scroll;
+        white-space: normal;
+        height: 68px;           
+    }
+    
+    li a {
+    
+    padding: 19px 25px;
+    width: 100%;
+    
+    }
+   
+    
+}
+    

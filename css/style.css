@@ -1,0 +1,619 @@
+/*
+Copyright 2017 Dora Tomljenovic <dxt5777>.
+#Project 1
+
+Created on : Oct 2, 2017, 3:36:20 PM
+Author     : dxt5777
+
+
+
+Navigation color: #3e5577;
+                  #232f42;
+                    
+Background-color: #FFE0B2;
+
+Hero text box: #ffffff;
+
+Content: Home, History, Food, Art, Music, Pictures, Festivals, Map, People
+         Architecture, References, Rubric
+
+Pictures: my photo album and from google
+
+*/
+
+html{
+    
+    background-color: #FFE0B2;
+}
+
+*{
+    margin:0;
+    
+}
+
+#main{
+    
+    font-family: 'Rokkitt', serif;
+}
+
+body{
+    
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+
+/*  NAVIGATION */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3e5577;
+}
+
+li {
+    float: left;
+    margin-bottom: -3px;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 150%;
+}
+
+
+li a:hover {
+    background-color: #232f42;
+    border-bottom: 3px solid #eabd7c;
+    margin-bottom: -3px;
+}
+
+
+
+.active{
+    
+    background-color: #232f42;
+    border-bottom: 3px solid #eabd7c;
+    margin-bottom: -3px;
+}
+
+
+#container {
+    width: 100%;
+    height: auto;
+}
+
+#navigation{
+    
+    position: fixed;
+    width: 100%;
+}
+
+#home {
+    background-image: url(../images/venice2.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin-top: -43px;
+    max-width: 100%;
+    
+}
+
+home::after
+{
+    margin:0;
+    content:"";
+    display: table;
+     
+}
+
+
+.hero-text-box{
+    color: #ffffff;
+    text-align: center;
+    position: static;
+    top: 50%;
+    font-size: 200%;   
+
+}
+
+
+h1{
+    
+    padding-top: 25%;
+       
+}
+
+
+/* HISTORY */
+
+
+h1.historytitle{
+    
+    font-size: 35px;
+    margin-top: -20%;
+    padding-left: 42%;
+    color: #3e5577;
+       
+}
+
+h2.historyvenice{
+    
+    font-size: 20pt;
+    padding-left: 25%;
+    padding-right: 25%; 
+    padding-top: 4%;
+    text-align: justify;
+    
+      
+}
+
+#past-picture{
+    
+    width: 20%;
+    height: 20%;
+    padding-left: 34%;
+    padding-top: 1%;
+}
+
+#section-user{
+    
+    height: 100vh;
+    padding: 2em 0;
+    width: 100%;
+       
+}
+
+/* FOOD */
+
+
+h1.food-venice{
+    
+     font-size: 35px;
+    margin-top: -20%;
+    padding-left: 46%;
+    color: #3e5577;    
+    
+}
+
+h2.venicefood{
+    
+    font-size: 20pt;
+    padding-left: 25%;
+    padding-right: 25%; 
+    padding-top: 4%;
+    text-align: justify;
+    
+}
+
+h2.food-t{
+    
+   font-size: 100%; 
+   padding-left: 20%;
+   
+    
+}
+
+#picture1 img{
+    
+    
+    width: 60%;
+    height: 10%;
+    padding-left: 20%;
+    padding-top: 1%;
+}
+
+
+
+section::after{
+    margin: 0;
+    content:"";
+    display: table;
+}
+
+
+
+
+/* SECTIONS */
+
+#section-food{
+    
+    
+    height: 100vh;
+    padding: 2em 0;
+    width: 100%;
+    margin: 0;
+    
+    
+}
+
+#section-food2{
+    
+    height: 100vh;
+    padding: 2em 0;
+    width: 100%;
+    margin: 0;
+    
+}
+
+#section-art{
+    
+    
+    height: 100vh;
+    padding: 2em 0;
+    width: 100%;
+    margin: 0;
+ 
+}
+
+#section-art2{
+    
+    
+    height: 100vh;
+    padding: 2em 0;
+    width: 100%;
+    margin: 0;
+    
+}
+
+#section-music{
+    
+    
+    height: 100vh;
+    padding: 2em 0;
+    width: 100%;
+    margin: 0;
+}
+
+#section-music2{
+    
+    
+    height: 100vh;
+    padding: 2em 0;
+    width: 100%;
+    margin: 0;
+}
+
+
+#section-festival{
+    
+    
+    height: 100vh;
+    padding: 2em 0;
+    width: 100%;
+    margin: 0;
+    text-align: justify;
+}
+
+
+
+#section-map{
+    
+    height: 100vh;
+    padding: 2em 0;
+    width: 100%;
+    margin: 0;
+    
+}
+
+#section-map2{
+    
+    
+    height: 100vh;
+    padding: 2em 0;
+    width: 100%;
+    margin: 0;
+    
+}
+
+#section-people{
+    
+    
+    height: 100vh;
+    padding: 2em 0;
+    width: 100%;
+    margin: 0;    
+}
+
+#section-architecture{
+    
+    height: 100vh;
+    padding: 2em 0;
+    width: 100%;
+    margin: 0;   
+    
+}
+
+#section-rubric{
+    
+    height: 100vh;
+    padding: 2em 0;
+    width: 100%;
+    margin: 0;
+    
+}
+
+#section-references{
+    
+    height: 100vh;
+    padding: 2em 0;
+    width: 100%;
+    margin: 0; 
+    
+    
+}
+
+
+/* ART */
+
+h1.art-title{
+    
+     font-size: 35px;
+    margin-top: -20%;
+    padding-left: 44%;
+    color: #3e5577;
+    
+}
+
+
+h2.art-venice{
+    
+    font-size: 20pt;
+    padding-left: 15%;
+    padding-right: 15%; 
+    padding-top: 4%;
+    text-align: justify;
+    
+}
+
+#glass img{
+    
+    width: 20%;
+    height: 20%;
+    padding-left: 40%;
+    padding-top: 5%;
+}
+
+
+
+/* MUSIC */
+
+h1.music-title{
+    
+    font-size: 32px;
+    margin-top: -20%;
+    padding-left: 45%;
+    color: #3e5577;
+}
+
+h2.music{
+    
+    font-size: 20pt;
+    padding-left: 20%;
+    padding-right: 20%; 
+    padding-top: 4%;
+    text-align: justify;
+ 
+}
+
+#picture-music img{
+    
+    width: 40%;
+    height: 40%;
+    padding-left: 30%;
+    padding-top: 2%;
+}
+
+/* PICTURES */
+
+h1.pictures-title{
+    
+    font-size: 35px;
+    margin-top: -20%;
+    padding-left: 40%;
+    color: #3e5577;
+}
+
+#gondolas img{
+    
+    width: 80%;
+    height: 70%;
+    padding-left: 10%;
+    padding-top: 5%;
+    
+}
+
+#venice-street img{
+    width: 35%;
+    height: 40%;
+    padding-left: 10%;
+    padding-top: 5%;
+    
+}
+
+#pictures {
+   
+    margin-left: 20%;
+    padding-top: 3%;
+    
+}
+
+#pictures-2{
+    
+    margin-left: 20%;
+    padding-top: 4%;
+    
+    
+}
+
+
+/* FESTIVAL */
+
+h1.festival-title{
+    
+    font-size: 35px;
+    margin-top: -20%;
+    padding-left: 45%;
+    color: #3e5577;
+    
+}
+
+h2.festival-history{
+    
+    font-size: 20pt;
+    padding-left: 30%;
+    padding-right: 30%; 
+    padding-top: 4%;
+    text-align: justify;
+}
+
+#picture-festival img{
+    
+    width: 20%;
+    height: 14%;
+    padding-left: 40%;
+    padding-top: 1%;
+     
+}
+
+
+/* MAP */
+
+h1.map-title{
+    
+    font-size: 35px;
+    margin-top: -20%;
+    padding-left: 48%;
+    color: #3e5577;
+    
+    
+}
+
+#venice-map img{
+    
+    width: 40%;
+    height: 40%;
+    padding-left: 7%;
+    padding-top: 3%;
+    
+}
+
+/* PEOPLE */
+
+h1.people-venice{
+    
+    font-size: 35px;
+    margin-top: -20%;
+    padding-left: 44%;
+    color: #3e5577;
+    
+}
+
+
+h2.people-description{
+    
+    font-size: 20pt;
+    padding-left: 25%;
+    padding-right: 25%; 
+    padding-top: 4%;
+    text-align: justify;
+       
+}
+
+#venice-bar img{
+    
+    width: 30%;
+    height: 30%;
+    padding-left: 33%;
+    padding-top: 3%;
+    
+}
+
+/* ARCHITECTURE */
+
+h1.architecture-title{
+    
+    font-size: 35px;
+    margin-top: -20%;
+    padding-left: 44%;
+    color: #3e5577;
+      
+}
+
+h2.architecture-information{
+    
+    font-size: 20pt;
+    padding-left: 30%;
+    padding-right: 30%; 
+    padding-top: 4%;
+    text-align: justify;
+    
+}
+
+#venice-basilica img{
+    
+    width: 30%;
+    height: 30%;
+    padding-left: 34%;
+    padding-top: 1%;
+       
+}
+
+
+/* REFERENCES */
+
+h1.references{
+    
+    font-size: 35px;
+    margin-top: -20%;
+    padding-left: 44%;
+    color: #3e5577;
+}
+
+p{
+    
+    
+    padding-left: 20%;
+    padding-top: 1%;
+}
+
+
+/* RUBRICS */
+
+h1.rubrics-title{
+    
+    font-size: 35px;
+    margin-top: -20%;
+    padding-left: 44%;
+    color: #3e5577;
+    
+}
+
+
+.rubrics-content{
+    
+    padding-left: 5%;
+    font-size: 25pt;
+   
+}
+
+p{
+    
+    padding-left: 8%;
+    font-size: 15pt;
+}
+
+
+
+
+
+
+
+
